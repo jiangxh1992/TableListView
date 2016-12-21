@@ -39,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D2B3B30F1E0A949900EEE66D /* Account.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
+		D2B3B3101E0A949900EEE66D /* AccountTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountTableViewCell.h; sourceTree = "<group>"; };
+		D2B3B3111E0A949900EEE66D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D2B3B3121E0A949900EEE66D /* PopListTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopListTableViewController.h; sourceTree = "<group>"; };
+		D2B3B3131E0A949900EEE66D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F3F2A79F1DA90D99006F1591 /* TableListDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableListDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3F2A7A31DA90D99006F1591 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F3F2A7A51DA90D99006F1591 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -156,6 +161,11 @@
 		F3F2A7D51DA90DC0006F1591 /* TableList */ = {
 			isa = PBXGroup;
 			children = (
+				D2B3B30F1E0A949900EEE66D /* Account.h */,
+				D2B3B3101E0A949900EEE66D /* AccountTableViewCell.h */,
+				D2B3B3111E0A949900EEE66D /* AppDelegate.h */,
+				D2B3B3121E0A949900EEE66D /* PopListTableViewController.h */,
+				D2B3B3131E0A949900EEE66D /* ViewController.h */,
 				F3F2A7DC1DA91056006F1591 /* Account.h */,
 				F3F2A7DD1DA91056006F1591 /* Account.m */,
 				F3F2A7E21DA91102006F1591 /* AccountTableViewCell.h */,
@@ -529,6 +539,7 @@
 				F3F2A7CE1DA90D99006F1591 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F3F2A7CF1DA90D99006F1591 /* Build configuration list for PBXNativeTarget "TableListDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +548,7 @@
 				F3F2A7D11DA90D99006F1591 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F3F2A7D21DA90D99006F1591 /* Build configuration list for PBXNativeTarget "TableListDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -545,6 +557,7 @@
 				F3F2A7D41DA90D99006F1591 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
